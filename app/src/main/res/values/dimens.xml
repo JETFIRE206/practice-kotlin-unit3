@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="accessibility_touch_target_aa">24dp</dimen>
+    <dimen name="accessibility_touch_target_aaa">44dp</dimen>
+</resources>
