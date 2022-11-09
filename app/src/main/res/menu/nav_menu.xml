@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/nav_lambda"
+        android:icon="@drawable/ic_baseline_sync_alt_24"
+        android:title="@string/label_lambda" />
+
+    <item
+        android:id="@+id/nav_high_order_func"
+        android:icon="@drawable/ic_baseline_functions_24"
+        android:title="@string/label_high_order_func" />
+
+</menu>
