@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/fragment_practice_high_order_func"
+    android:id="@+id/fragment_word_list"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/high_order_func"
-    tools:context="com.example.unit3.view.PracticeLambdasFragment">
+    android:background="@color/word_list"
+    tools:context="com.example.unit3.view.PracticeWordListFragment">
 
     <TextView
-        android:id="@+id/label_high_order_func"
-        android:layout_width="wrap_content"
+        android:id="@+id/label_word_list"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/label_high_order_func"
+        android:text="@string/label_word_list"
         android:textAppearance="@style/TextAppearance.Material3.BodyLarge"
         android:textStyle="bold" />
 
     <TextView
-        android:id="@+id/output_lambda"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/label_high_order_func"
+        android:id="@+id/output_word_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/label_word_list"
         android:textColor="@color/black"
         tools:text="Hello" />
 

@@ -11,14 +11,16 @@
         android:id="@+id/label_lambda"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/label_lambda"/>
+        android:text="@string/label_lambda"
+        android:textAppearance="@style/TextAppearance.Material3.BodyLarge"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/output_lambda"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textColor="@color/black"
         android:layout_below="@id/label_lambda"
+        android:textColor="@color/black"
         tools:text="Hello" />
 
 </RelativeLayout>

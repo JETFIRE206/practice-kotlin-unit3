@@ -10,6 +10,7 @@ import androidx.fragment.app.commit
 import com.example.unit3.databinding.ActivityMainBinding
 import com.example.unit3.view.PracticeHighOrderFunc
 import com.example.unit3.view.PracticeLambdasFragment
+import com.example.unit3.view.PracticeWordListFragment
 import com.google.android.material.navigation.NavigationView
 
 // Generally, your fragment must be embedded within an AndroidX "FragmentActivity" to contribute a
@@ -50,6 +51,7 @@ class MainActivity : AppCompatActivity() {
             when (it.itemId) {
                 R.id.nav_lambda -> replaceFragment(PracticeLambdasFragment())
                 R.id.nav_high_order_func -> replaceFragment(PracticeHighOrderFunc())
+                R.id.nav_word_list -> replaceFragment(PracticeWordListFragment())
                 else -> replaceFragment(PracticeLambdasFragment())
             }
 

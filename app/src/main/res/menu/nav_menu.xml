@@ -13,4 +13,9 @@
         android:icon="@drawable/ic_baseline_functions_24"
         android:title="@string/label_high_order_func" />
 
+    <item
+        android:id="@+id/nav_word_list"
+        android:icon="@drawable/ic_baseline_text_format_24"
+        android:title="@string/label_word_list" />
+
 </menu>

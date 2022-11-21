@@ -30,12 +30,12 @@ class PracticeHighOrderFunc : Fragment(R.layout.fragment_practice_high_order_fun
 
         // Print people who's name contains the letter 'e'.
         appendText("\nFilter: (names containing letter 'e')")
-        appendText(people.filter {it.contains("e")}
+        appendText(people.filter { it.contains("e") }
             .toString())
 
         // Print people who's names are longer than 4 characters.
         appendText("\nFilter: (Names longer than 4 characters)")
-        appendText(people.filter { it.length > 4}
+        appendText(people.filter { it.length > 4 }
             .toString())
 
         // Note: To compare two objects for sorting, the convention is to return a value less than 0
